@@ -27,6 +27,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	width: 100vw;
+	height: 100vh;
 	line-height: 1;
     background: #FFFF;
     color: #000;
