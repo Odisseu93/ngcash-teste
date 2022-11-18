@@ -1,5 +1,5 @@
-import { Form } from "./Form";
-import { Wrapper } from "./Wrapper";
+import { Form } from "../../components/Form";
+import { Wrapper } from "../../components/Wrapper";
 
 export const Login = () => {
   return (

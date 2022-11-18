@@ -11,7 +11,7 @@ export const Form = styled.form`
 
   & .box {
     height: 61.13px;
-    
+
     &:nth-child(1) {
       width: 272px;
       left: 495px;
@@ -53,7 +53,8 @@ export const Form = styled.form`
     }
   }
 
-  & .button-entrar {
+  & .button-entrar,
+  .button-cadastrar {
     height: 50.015px;
     width: 204px;
     left: 495px;
@@ -66,9 +67,14 @@ export const Form = styled.form`
     color: ${(props) => props.theme.colors.white};
     cursor: pointer;
 
-    &:active {
+    &:active,
+    .button-cadastrar:active {
       color: ${(props) => props.theme.colors.btnEntrarActive};
     }
+  }
+
+  & .button-cadastrar {
+    margin-top: 40px;
   }
 
   & .msg-cadastro {
