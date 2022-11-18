@@ -30,7 +30,7 @@ export const Cadastro = () => {
           />
         </div>
         <div className="box">
-          <label htmlFor="password" className="lbl-password">
+          <label htmlFor="checkPassword" className="lbl-password">
             Confirme a senha 
           </label>
           <input

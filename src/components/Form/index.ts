@@ -39,6 +39,7 @@ export const Form = styled.form`
     font-weight: 700;
     font-size: 20px;
     color: ${(props) => props.theme.colors.black};
+    cursor: pointer;
 
     &__user {
       width: 265px;
