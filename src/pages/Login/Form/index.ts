@@ -11,23 +11,26 @@ export const Form = styled.form`
 
   & .box {
     height: 61.13px;
+    
     &:nth-child(1) {
       width: 272px;
       left: 495px;
       margin-bottom: 40px;
     }
+
     &:nth-child(2) {
       margin-bottom: 40px;
       width: 210px;
     }
-}
+  }
 
-& label {
+  & label {
     font-weight: 700;
     font-size: 20px;
     cursor: pointer;
-}
-& .inp-field {
+  }
+
+  & .inp-field {
     height: 34px;
     border: none;
     background: ${(props) => props.theme.colors.cinzaClaro};
@@ -36,14 +39,20 @@ export const Form = styled.form`
     font-weight: 700;
     font-size: 20px;
     color: ${(props) => props.theme.colors.black};
-    
+
     &__user {
-        width: 265px;
+      width: 265px;
     }
     &__password {
       width: 213px;
     }
+
+    &::placeholder {
+      padding: 10px;
+      color: coral;
+    }
   }
+
   & .button-entrar {
     height: 50.015px;
     width: 204px;
@@ -56,7 +65,12 @@ export const Form = styled.form`
     background: ${(props) => props.theme.colors.black};
     color: ${(props) => props.theme.colors.white};
     cursor: pointer;
+
+    &:active {
+      color: ${(props) => props.theme.colors.btnEntrarActive};
+    }
   }
+
   & .msg-cadastro {
     a {
       padding: 10px;
