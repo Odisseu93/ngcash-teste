@@ -21,5 +21,6 @@ export const theme = {
   },
   shadows: {
     defaultBoxShadow: "0px 4px 4px 0px #00000040",
+    BoxShadowLg: "rgba(0, 0, 0, 0.08) 0px 6px 16px 0px",
   },
 };
